@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Poppins:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+ margin: 0;
+ padding: 0;  
+ display: flex;
+ flex-direction: column; 
+}
+img{
+    border-radius: 10px;
+}
+
+.quienes_somos {
+    width: 100%;
+    height: auto;
+    background-color: var(--color1);
+    text-align: center;
+    color: var(--color5);
+    padding: 10%;
+}
+
+.porque_elegirnos {
+    width: 100%;
+    height: auto;
+    background-color: var(--color2);
+    text-align: center;
+    color: var(--color5);
+    padding: 10%;
+}
+
+.propuesta_educativa {
+    width: 100%;
+    height: auto;
+    background-color: var(--color4);
+    text-align: center;
+    color: var(--color5);
+    padding: 10%;
+}
+h1,h2{
+    font-family: 'Belanosima', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.noticias {
+    width: 100%;
+    height: auto;
+    background-color: var(--color1);
+    text-align: center;
+    color: var(--color5);
+    padding: 10%;
+}
+
+main{
+    background-color: var(--color1);
+}
+a{
+    text-decoration: none;
+    color: var(--color5);
+}
+.materias-enseñadas{
+    justify-content: center;
+}
+
+@media (min-width: 300px){
+    body{
+        flex-direction: column; 
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: var(--color1);
+    text-align: center;
+    color: var(--color5);
+    padding: 10%;
+    margin: 0;
+}
+
+.red_social {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}

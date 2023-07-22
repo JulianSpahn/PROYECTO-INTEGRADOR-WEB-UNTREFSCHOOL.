@@ -1,0 +1,11 @@
+header{
+    
+    padding: 60px;
+    text-align: center;
+    background-color: var(--color3);
+    background-image: url(../img/libros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color5);
+    text-decoration: none;
+}
