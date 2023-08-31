@@ -5,3 +5,10 @@
     background-color: var(--color3);
     color: var(--color5);
 }
+
+@media screen and (min-width: 768px){
+    .footer{
+        flex-direction: row;
+    }
+    
+}
